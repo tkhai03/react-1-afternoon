@@ -1,16 +1,17 @@
-import React, {Component} from 'react';
-//Topics
-import EvenandOdd from './components/Topics/EvenandOdd'
-import FilterObject from './components/Topics/FilterObject'
-import FilterString from './components/Topics/FilterString'
-import Palindrome from './components/Topics/Palindrome'
-import Sum from './components/Topics/Sum'
+import React, { Component } from 'react';
 
-class TopicBrowser extends Component {
+// Topics
+import EvenAndOdd from '../Topics/EvenAndOdd'
+import FilterObject from '../Topics/FilterObject'
+import FilterString from '../Topics/FilterString'
+import Palindrome from '../Topics/Palindrome'
+import Sum from '../Topics/Sum'
+
+export default class TopicBrowser extends Component {
     render() {
         return (
             <div>
-                <EvenandOdd />
+                <EvenAndOdd />
                 <FilterObject />
                 <FilterString />
                 <Palindrome />
@@ -19,5 +20,3 @@ class TopicBrowser extends Component {
         )
     }
 }
-
-export default TopicBrowser;
